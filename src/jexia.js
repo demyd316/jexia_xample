@@ -5,9 +5,9 @@ const dataModule = dataOperations()
 // Please bare in mind, we put here Key/ Secret just for test reason. So you will be able to test app strate away.
 // In real app beeter to use middleware in NodeJS or by using Jexia UMS
 const Jexia_API = {
-    projectID: '4debe611-fb9b-4734-949c-6d39bb9ec4ae', // Your Project ID at Jexia
-    key: 'b8876695-2a25-4b12-99eb-d30ef6af8fd6',  // Your API key at Jexia
-    secret: '0ZyHP8RqClSx8DP3Wed0N44YfHPU02mffFsKBsLOkM0Hag+ds3uZpdn1Egkdc0XUgVfQ3kJetZjJqxfJJq494w==' // Your API secret at JEXIA
+    projectID: '033598f1-bb36-489a-98a3-ef7e761db89e', // Your Project ID at Jexia
+    key: '2fdf9a8f-d055-48df-a803-c015f2b869db',  // Your API key at Jexia
+    secret: 'gX5hz2LDh42qoRzCFGTb4mbfV9LgMnNqdx1XWSZjA0i96+V/ZTXqaHqTR6Psfn7385qFebcVhfGA8xhzjrwywQ==' // Your API secret at JEXIA
   } 
 
 jexiaClient().init(Jexia_API, dataModule);
